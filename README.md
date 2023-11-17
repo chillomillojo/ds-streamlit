@@ -14,14 +14,14 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 
 ### Environment 🌀 and Installation 👩🏽‍🔧👨🏽‍🔧
 #### Prerequisite
-+ Python 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
++ Python 3.11.3 or above up to 3.11.6 (We will use [pyenv](https://github.com/pyenv/pyenv#simple-python-version-management-pyenv) for Python Version Management but feel free to use any other tool)
 + Virtual environment (We will use the module venv from python but you can use any other tool)
 
 
 For __MacOs__/__Linux__ users
 ```bash
-# Sets the local Python version to 3.11.6 using pyenv
-pyenv local 3.11.6 
+# Sets the local Python version to 3.11.3 using pyenv
+pyenv local 3.11.3 
 # Create a Virtual Environment named .streamlit_env using venv
 python -m venv .streamlit_env
 # Activate the Virtual Environment
@@ -34,8 +34,8 @@ For __Windows__ users
 
 
 ```bash
-# Sets the local Python version to 3.11.6 using pyenv
-pyenv local 3.11.6 
+# Sets the local Python version to 3.11.3 using pyenv
+pyenv local 3.11.3 
 # Create a Virtual Environment named .streamlit_env using venv
 python -m venv .streamlit_env
 # Activate the Virtual Environment
@@ -55,10 +55,12 @@ This should open a Streamlit web app in your default web browser.
 
 ## Further Readings 📚
 The following is a list of other popular python web framework:
-+ [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 + [Django](https://www.djangoproject.com)
 + [Dash](https://dash.plotly.com)
++ [Flask](https://flask.palletsprojects.com/en/3.0.x/)
 + [FastAPI](https://fastapi.tiangolo.com)
+<br>
+Both FastAPI and Flask are primarily focused on backend development for web applications.
 
 ## Aknowledgments 🙏🏼
 I would like to thank [Dr. Paula González Avalos](https://github.com/pga99?tab=repositories) for having introduced me into the Penguins and Streamlit worlds. 
