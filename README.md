@@ -17,6 +17,12 @@ __🗿 Milestones 🪜 🎯👷🏽‍♀️__:
 This repository contains several branches, each serving a different purpose:
 
 - **main**: This is the main branch and contains the step-by step guidance for building the streamlit app.
+- **team_gentoo_eda**: This is the branch used to implement the eda feature
+- **team_adelie_predict**: This is the branch used to implement the model predict feature
+- **main-dev**: This is the branch where we merge all the new features into 
+
+##### Further branches 🦋
+
 - **streamlit_advanced**: Contains streamlit advanced concepts.
 
 - **solution_streamlit**: A branch with the solution for the Streamlit exercise.
@@ -42,7 +48,7 @@ source .streamlit_env/bin/activate
 pip install -r requirements.txt
 ```
 
-For __Windows__ users
+For __Windows__ users with PowerShell CLI
 
 
 ```bash
@@ -52,6 +58,20 @@ pyenv local 3.11.3
 python -m venv .streamlit_env
 # Activate the Virtual Environment
 .streamlit_env\Scripts\Activate.ps1
+# Install Streamlit and Additional Libraries
+pip install -r requirements.txt
+```
+
+For __Windows__ users with GIT-BASH CLI
+
+
+```bash
+# Sets the local Python version to 3.11.3 using pyenv
+pyenv local 3.11.3 
+# Create a Virtual Environment named .streamlit_env using venv
+python -m venv .streamlit_env
+# Activate the Virtual Environment
+source .streamlit_venv/Scripts/activate
 # Install Streamlit and Additional Libraries
 pip install -r requirements.txt
 ```
