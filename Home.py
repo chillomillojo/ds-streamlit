@@ -6,8 +6,6 @@ import streamlit as st
 import seaborn as sns
 import plotly.express as px
 
-st.sidebar.page_link(page="Home.py", label="Welcome", icon="🏠")
-st.sidebar.page_link(page="pages/1 - Predict.py", label="Oracle", icon="🔮")
 
 # Write a title
 st.title('Welcome to the first penguin data exploration app with streamlit')
