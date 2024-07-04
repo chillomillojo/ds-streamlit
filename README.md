@@ -2,15 +2,7 @@
 In the Pythonic realm 🐍👑  of data and machine learning web application frameworks Streamlit has been acquiring quite a lot of popularity. In fact, Streamlit is designed  to be incredibly user-friendly. You can create interactive web apps with just a few lines of Python code. It abstracts away much of the complexity involved in web development, making it accessible even to those without a web development background. 
 
 ## How to use this repo 🛹
-Please fork this repo and then check the milestones list below.
 This repo will guide us step-by-step on building a 📊🧑🏽‍🔬DataScience Web Application 🧑🏽‍🔬📊 based on Streamlit. 
-
-__🗿 Milestones 🪜 🎯👷🏽‍♀️__:
-1. [Setting up a python environment 🐍](README.md#environment-🌀-and-installation-👩🏽‍🔧👨🏽‍🔧)
-2. [🔥🔥 2 Warm-Up Exercises 🔥🔥 on EDA 📊🌈 and  Deploy a Machine-Learning Model 🎓🤖](warmup_exercises/README.md)
-3. [⚡️📚 Quick Reading on Streamlit ⚡️📚](streamlit_exercise/streamlit.md)
-4. [Building a 🐧 Web-App with Streamlit: PART I](streamlit_exercise/EDA_st_tutorial.md)
-5. [Building a 🐧 Web-App with Streamlit: PART II](streamlit_exercise/predict_st_tutorial.md)
 
 ### Branches 🌱
 
@@ -26,7 +18,10 @@ This repository contains several branches, each serving a different purpose:
 - **streamlit_advanced**: Contains streamlit advanced concepts.
 
 - **solution_streamlit**: A branch with the solution for the Streamlit exercise.
-- **solution_excercise**: A branch with the solution for the EDA exercise related to the application.
+- **solution_excercise**: A branch with the solution for the EDA exercise related to the 
+application.
+- **streamlit+API_intro**: A branch with a working Streamlit application with a notebook giving a quick introduction to API and JSON.
+
 
 Feel free to explore the different branches.
 
